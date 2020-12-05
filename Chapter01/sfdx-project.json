@@ -1,11 +1,17 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "FormulForce app",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "namespace": "fforcesnk",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "45.0",
+    "packageAliases": {
+        "FormulForce app": "0Ho08000000oLkZCAU"
     }
-  ],
-  "namespace": "fforcesnk",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "45.0"
 }
